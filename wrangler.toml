@@ -1,0 +1,6 @@
+name = "cf-proxy-worker"
+main = "src/index.ts"
+compatibility_date = "2023-02-26"
+routes = [
+    { pattern = "proxy.cftestingcloudce.xyz", custom_domain = true}
+]
