@@ -4,3 +4,6 @@ compatibility_date = "2023-02-26"
 routes = [
     { pattern = "proxy.cftestingcloudce.xyz", custom_domain = true}
 ]
+kv_namespaces = [
+    {binding = "cf_cache_db", id = "02aea30ea0ff4361ad661cc33de60ce1", preview_id = "ea605738b0ef47bfad69e53685011749" }
+]
